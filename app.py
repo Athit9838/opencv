@@ -16,7 +16,7 @@ def hello_world():
 
 @app.route('/api', methods=["GET", "POST"])
 def api():
-    data = request
+    data = request.json
     return data
     # return 'Hello, API!'
     # file = request.files['image'].read()
