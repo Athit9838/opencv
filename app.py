@@ -66,5 +66,5 @@ def api():
     # return {"image64": img_64, "points": count}
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
