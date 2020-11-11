@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request
 from PIL import Image
-# import cv2
+import cv2
 import numpy as np
 import base64
 import io
