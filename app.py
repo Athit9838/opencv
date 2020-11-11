@@ -11,12 +11,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello, OK!'
 
 
 @app.route('/api')
 def api():
-    return 'Hello, API!'
+    # return 'Hello, API!'
     file = request.files['image'].read()
     npimg = np.fromstring(file, np.uint8)
     img = cv2.imdecode(npimg, 1)
